@@ -1,0 +1,161 @@
+body,html{
+  height: 100%;
+  width:100%;
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.6em;
+}
+
+.tab{
+  background-color: rgb(255, 255, 255);
+  color: rgba(3, 107, 252,1);
+  top: 0%;
+  left: -5%;
+  right: -5%;
+  height: 5%;
+  width: 110vw;
+  padding-top: 2%;
+  position: fixed;
+  text-decoration: none;
+}
+
+
+.tab a{
+  color: rgba(3, 107, 252,1);
+  text-decoration: none;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+.tab a:hover {
+  border-bottom: 5px solid rgba(3, 107, 252,1);
+  width: 5%;
+}
+
+.tab a.active {
+  border-bottom: 5px solid rgba(3, 107, 252,1);
+  width: 5%;
+}
+
+
+#discover{
+  margin-left: 4%;
+  padding: 2%;
+  border-bottom: none;
+}
+
+#feed{
+  margin-left: 10%;
+  padding: 2%;
+  width: 25%;
+}
+
+#reload{
+  position: relative;
+  float: left;
+  margin-left: 0%;
+  padding: 2%;
+}
+
+.fa-refresh{
+    margin-top: -5%;
+    padding-top: 0%;
+}
+
+#reload{
+  margin-top: -5%;
+  padding-top: 0%;
+  margin-left: 85%;
+  border-bottom: none;
+}
+
+.container{
+  background-color: rgb(255,255,255);
+  color: rgb(0,0,0);
+}
+
+.container img{
+  margin: 0%;
+  width: 100%;
+  height: 30%;
+}
+
+.container h3{
+  padding: 2%;
+  padding-bottom: 0%;
+  font-size: 1em;
+  color: rgba(0,0,0,0.8);
+}
+
+.container p{
+  padding: 2%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  font-size: 0.5em;
+  color: rgba(0,0,0,0.9);
+}
+
+.container a{
+  padding: 2%;
+  padding-top: 0%;
+  text-decoration: none;
+  font-size: 0.25em;
+  color: rgba(0,0,0,0.5);
+}
+
+
+.footer{
+  background-color: rgb(255, 255, 255);
+  color:  rgba(3, 107, 252,1);
+  top: 90%;
+  left: 0%;
+  right: -5%;
+  height: 10%;
+  padding-top: 2%;
+  width: 110vw;
+  position: fixed;
+}
+
+.footer div{
+  width: 25%;
+  position: relative;
+  float: left;
+}
+
+#relevance{
+  margin-left: 5%;
+  padding: 2%;
+}
+
+#share{
+  margin-left: 3%;
+  padding: 2%;
+}
+
+#bookmark{
+  margin-left: 3%;
+  padding: 2%;
+}
+
+.fa{
+  color: rgb(96, 174, 247);
+}
+
+.fa-question-circle{
+  margin-left: 25%;
+}
+
+.fa-share-alt{
+  margin-left: 12%;
+}
+
+.fa-bookmark-o{
+  margin-left: 20%;
+}
+
+.footer a{
+  color: rgba(3, 107, 252,1);
+  text-decoration: none;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
